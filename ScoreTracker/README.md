@@ -34,3 +34,14 @@
 점수: 100 / 100
 보너스 적용 횟수: 2
 ```
+ScoreTracker math = new ScoreTracker("수학");
+math.ShowScore();
+Console.WriteLine();
+
+math.SetScore(85);
+math.AddBonus(10);
+math.AddBonus(20);
+math.SetScore(-10);
+Console.WriteLine();
+
+math.ShowScore();
